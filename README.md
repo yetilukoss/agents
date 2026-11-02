@@ -1,4 +1,4 @@
-made by !yeti
+made by !YETI
 ```
 !yetiluk
 ```
@@ -8,7 +8,7 @@ made by !yeti
 
 1. download node.js: https://nodejs.org/en → install
 2. download git: https://git-scm.com → install
-3. open powershell → run: `npm install -g pnpm`
+3. open powershell → run: `npm install -g pnpm@12.15.0 --allow-scripts=pnpm`
 4. open powershell → run:
    ```
    git clone https://github.com/Vendicated/Vencord
@@ -22,10 +22,11 @@ made by !yeti
 
 ## add custom plugins
 
-1. create folder: `Desktop\custom-plugins`
+1. create folder: `Vencord\src\userplugins`
+   - command: `mkdir src\userplugins`
 2. put plugin files/folders inside
    - example: https://github.com/BlockTol/Quest-Auto-Complete
-   - clone it: `git clone https://github.com/BlockTol/Quest-Auto-Complete` into custom-plugins
+   - clone it: `git clone https://github.com/BlockTol/Quest-Auto-Complete` into userplugins
 3. go to vencord folder:
    ```
    cd Vencord
